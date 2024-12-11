@@ -7,30 +7,25 @@ paginate: 5
 plugins: [jekyll-paginate]
 port: 4000
 safe: true
-url: http://jekyllt.github.io/vitae
-author: Fábio Madeira
+url: https://xyz-han.github.io
+author: Thor Odinson
 
 # edit this section with your information
 # jekyllt.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-baseurl: /vitae/
-title: Chris Turner's Resume
-name: Chris Turner
-email: christurner@me.com
-email_full: mailto:youremail@me.com
-website: github.io/sustain
-website_full: https://jekyllt.github.io/sustain
-github: trending
-twitter: twitter
-tel: +44 0000 000000
-tel_full: tel:+440000000000
-google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+baseurl: /
+title: Xiangyu Han's Resume
+name: Xiangyu Han
+email: xyhan AT smail DOT nju DOT edu DOT cn
+email_full: xyhan@smail.nju.edu.cn
+website: xyz-han.github.io
+website_full: https://xyz-han.github.io
+
+google_maps: 'https://maps.app.goo.gl/7SSrWxM9mkybGVBcA'
 address:
-  street: 44 Perth Street
-  postcode: EH3 5BL
-  city: Edinburgh
-  country: United Kingdom
-google_analytics: UA-69300817-1
+  postcode: 210023
+  city: Nanjing
+  country: China
 
 # needed for travis-ci build
 exclude: [vendor]
